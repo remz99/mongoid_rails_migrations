@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency('bundler', '>= 1.0.0')
   # 9.0.0 broke client override isolation: https://jira.mongodb.org/browse/MONGOID-5815
-  spec.add_runtime_dependency('mongoid', '>= 5.0.0', '< 9.0.0')
+  spec.add_runtime_dependency('mongoid', '>= 5.0.0', '< 10.0.0')
   spec.add_runtime_dependency('rails',  rails_version)
   spec.add_runtime_dependency('railties',  rails_version)
   spec.add_runtime_dependency('activesupport',  rails_version)
